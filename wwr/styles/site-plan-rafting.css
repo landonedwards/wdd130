@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lato&display=swap');
+
+:root {
+    --primary-color: #26547C
+    --secondary-color: #A4DEF9
+    --accent1-color: #D2CCA1
+    --accent2-color: #9E6240
+
+    --heading-font: 'Darumadrop One', serif;
+    --paragraph-font: Lato, serif;
+
+    --nav-background-color: #D2CCA1
+    --nav-link-color: #9E6240
+    --nav-hover-link-color: #26547C
+    --nav-hover-background-color: #A4DEF9
+}
+
+body {
+    font-family: var(--Lato);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var('--Darumandrop One');
+    color: var(--#26547C)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--#D2CCA1)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
