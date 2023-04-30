@@ -16,19 +16,19 @@
 }
 
 body {
-    font-family: var(Lato);
+    font-family: var(--Lato);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var('Darumandrop One');
-    color: var(#26547C)
+    font-family: var(--'Darumandrop One');
+    color: var(--#26547C)
 }
 
 header {
     padding: 20px;
-    background-color: var(#D2CCA1)
+    background-color: var(--#D2CCA1)
 }
 
 p {
