@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lato&display=swap');
+
+:root {
+    --primary-color: #26547C;
+    --secondary-color: #A4DEF9;
+    --accent1-color: #D2CCA1;
+    --accent2-color: #9E6240;
+
+    --heading-font: 'Darumadrop One', serif;
+    --paragraph-font: Lato, serif;
+
+    --nav-background-color: #D2CCA1;
+    --nav-link-color: #9E6240;
+    --nav-hover-link-color: #26547C;
+    --nav-hover-background-color: #A4DEF9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Darumadrop One';
+    color:#26547C;
+}
+
+body {
+    font-family: Lato;
+    max-width: 960px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* This next line may need to be adjusted at some point. 
+The instructions encouraged me to try it, but it is not necessary
+if it causes any issues, feel free to remove it. */
+
+* {
+    max-width: 700px;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.70;
+}
+
+h1 {
+    position: absolute;
+    top: 140px;
+    left: 290px;
+    color: navy;
+}
+
+article {
+    position: absolute;
+    top: 230px;
+    left: 49px;
+    background-color: #1d4b73;
+    padding: 1em;
+    opacity: 0.85;
+    max-width: 570px;
+}
+
+article p {
+    color: lightgrey;
+}
+
+article img {
+    float: right;
+}
+
