@@ -18,17 +18,25 @@ h1 {
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: solid;
+    font-size: 1.33rem;
 }
 
 main img {
@@ -38,13 +46,18 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 1rem;
 }
 
-p { padding: 0;}
+p { 
+    padding: 0;
+    margin: 0.5rem;
+}
 
-main {
+/* main {
     max-width: 840px;
 }
+might need to delete this later... */ 
 
 aside {
     width: 20em;
@@ -69,6 +82,11 @@ footer {
     text-align: center;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 /* Class Selectors */
 
 .box {
@@ -77,4 +95,21 @@ footer {
     padding: 1rem;
     background-color: lightgrey;
     color: navy;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
