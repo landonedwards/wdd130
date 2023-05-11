@@ -10,7 +10,7 @@
     --paragraph-font: Lato, serif;
 
     --nav-background-color: #D2CCA1;
-    --nav-link-color: #9E6240;
+    --nav-link-color: #62361d;
     --nav-hover-link-color: #26547C;
     --nav-hover-background-color: #A4DEF9;
 }
@@ -28,7 +28,7 @@ body {
 
 nav a {
     text-decoration: none;
-    color: #9E6240;
+    color: #62361d;
 }
 
 /* This next line may need to be adjusted at some point. 
