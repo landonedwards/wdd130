@@ -28,6 +28,7 @@ body {
 
 nav a {
     text-decoration: none;
+    color: #9E6240;
 }
 
 /* This next line may need to be adjusted at some point. 
@@ -75,3 +76,88 @@ article img {
     max-width: 150px;
 }
 
+header {
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 2px solid #26547C;
+    background-color: #A4DEF9
+}
+
+header img {
+    margin: 0 0 0.5rem 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation a {
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #D2CCA1;
+    text-align: center;
+}
+
+.navigation a:hover {
+    color:#26547C;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+} 
+
+.history-container {
+    display: flex;
+}
+
+.history-container :first-child {
+    padding-right: 20px;
+}
+
+.history-container p:nth-of-type(2) {
+    padding-left: 25px;
+}
+
+.history-container img {
+    width: 200px;
+}
+
+
+.rafting-images {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 100px 0;
+}
+
+figure {
+    height: 9vh;
+    width: 9vh;
+    flex-grow: 1;
+}
+
+figure img {
+    object-fit: cover;
+    margin: 0;
+    width: 13vh;
+    height: 13vh;
+}
+
+figcaption {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-color: #A4DEF9;
+}
+
+.sociallinks {
+    text-align: right;
+}    
