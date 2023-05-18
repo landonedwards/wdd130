@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif";
+    font-size: 1em;
+}
+
+form {
+    display: grid;
+    grid-gap: 0.8em;
+    width: 600px;
+    margin: 0 auto;
+    background: whitesmoke;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+}
+
+h1 {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0.5rem 0 0.8rem 0;
+    color: rgb(91, 18, 91)
+}
+
+button {
+    padding: 0.7em;
+    font-size: 1rem;
+    background:rgb(91, 18, 91);
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.8em 0 0 0;
+}
+
+button:hover {
+    background: darkslategrey;
+}
+
+label, input, button, select, textarea {
+    font-family: Lato, sans-serif;
+}
+
+input, select, textarea {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+/*
+input[type="textarea"] {
+    height: 80px;
+}
+*/
