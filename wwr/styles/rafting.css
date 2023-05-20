@@ -81,7 +81,8 @@ header {
     margin: 1rem auto;
     grid-template-columns: 1fr 2fr;
     border-bottom: 2px solid #26547C;
-    background-color: #A4DEF9
+    background-color: #A4DEF9;
+    width: 700px;
 }
 
 header img {
@@ -149,15 +150,138 @@ figure img {
     height: 13vh;
 }
 
+/*
 figcaption {
     text-align: right;
 }
+*/
 
 footer {
     text-align: center;
     background-color: #A4DEF9;
+    width: 700px;
+    border-top: 2px solid #26547C;
 }
 
 .sociallinks {
     text-align: right;
 }    
+
+.contact-h1 {
+    position: absolute;
+    top: 140px;
+    left: 300px;
+}
+
+.phone, .email, .address {
+    text-align: center;
+    margin: 4em 0 0 0;
+    width: 185px;
+}
+
+.phone img, .email img, .address img {
+    width: 70px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+
+.location-employee-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 700px;
+}
+
+.employee-container {
+    display: flex;
+    width: 390px;
+    height: 350px;
+    flex-flow: row wrap;
+    margin: 1em 0 0 0;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 0.5em;
+    background-color: whitesmoke
+}
+
+.employee-container h2 {
+    flex: 3 400px;
+    height: 20px;
+}
+
+figure {
+    flex: 1;
+    height: 110px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+iframe {
+    width: 290px;
+    height: 350px;
+    margin: 1em 0 0 0.7em;
+}
+
+label, input, button, textarea {
+    font-family: Lato, sans-serif;
+}
+
+input, textarea {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+form {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 0.8em;
+    margin: 2em 0 2em 3em;
+    background: whitesmoke;
+    padding: 1rem;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.8em;
+    border: none;
+}
+
+.intent {
+    display: grid;
+    grid-gap: 0.5em;
+}
+
+legend {
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3em;
+    color: navy;
+    font-weight: 600;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 0.7em;
+    font-size: 1rem;
+    width: 80px;
+    height: 30px;
+    margin: 0.5em 0 0 14.9em;
+}
+
+button:hover {
+    background: darkcyan;
+}
+
+.intent h2 {
+    font-family: Lato;
+    text-align: left;
+    font-size: 1em;
+    color: black;
+    font-weight: normal;
+}
