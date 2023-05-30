@@ -50,7 +50,7 @@ if it causes any issues, feel free to remove it. */
     opacity: 0.70;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     bottom: 350px;
     left: 260px;
@@ -134,20 +134,41 @@ h2 {
 .rafting-images {
     display: flex;
     justify-content: center;
-    margin: 0 0 100px 0;
+    margin: 0 0 60px 0;
 }
 
-figure {
+.rafting-images figure {
     height: 9vh;
     width: 9vh;
     flex-grow: 1;
+    flex: 1;
+    height: 110px;
 }
 
-figure img {
+.employee-container figure {
+    height: 9vh;
+    width: 9vh;
+    flex-grow: 1;
+    flex: 1;
+    height: 110px;
+}
+
+.rafting-images figure img {
     object-fit: cover;
     margin: 0;
     width: 13vh;
     height: 13vh;
+}
+
+.employee-container figure img{
+    object-fit: cover;
+    margin: 0;
+    width: 13vh;
+    height: 13vh;
+}
+
+.rafting-images figcaption {
+    text-align: center;
 }
 
 /*
@@ -210,15 +231,6 @@ footer {
 .employee-container h2 {
     flex: 3 400px;
     height: 20px;
-}
-
-figure {
-    flex: 1;
-    height: 110px;
-}
-
-figcaption {
-    text-align: center;
 }
 
 iframe {
@@ -284,4 +296,118 @@ button:hover {
     font-size: 1em;
     color: black;
     font-weight: normal;
+}
+
+.banner img {
+    opacity: 0.75;
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: navy;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.5rem;
+}
+
+hr {
+    width: 700px;
+}
+
+.trips-container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 0 2rem 0;
+}
+
+.trips-container div {
+    max-width: 205px;
+    border: 1px solid #26547C;
+    border-radius: 0.5em;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+section h2 {
+    width: 700px;
+    margin: 0.5em 0 1em 0;
+    font-size: 1.8rem;
+}
+
+.trip-info {
+    display: flex;
+    width: 700px;
+}
+
+aside {
+    border-radius: 0.5rem;
+    width: 290px;
+    height: 335px;
+    margin: 3.7rem 0.5rem 1rem 0;
+    padding: 0.5rem;
+    border: 2px solid #62361d;
+    background: #D2CCA1;
+    word-spacing: 2px;
+    line-height: 1.2;
+}
+
+aside p {
+    color: #62361d;
+    font-size: 0.9rem;
+}
+
+aside button {
+    margin: 0 0 0.5rem 65px;
+    background: #62361d;
+}
+
+aside button:hover {
+    background: #845338;
+}
+
+aside h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #62361d;
+    font-family: Lato;
+    font-size: 1.1rem;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 1rem 0 1rem 2rem;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+table caption {
+    font-size: 1.1rem;
+    color: #26547C;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+th, tr, col {
+    border: 1px solid black;
+}
+
+.trip-images {
+    text-align: center;
+    width: 130px;
+    margin: 0 0 0 2.1rem;
+}
+
+.trip-images figcaption {
+    color: #26547C;
+    font-weight: 600;
+}
+
+.trip-images img {
+    width: 130px;
 }
