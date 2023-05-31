@@ -57,7 +57,7 @@ if it causes any issues, feel free to remove it. */
     color: navy;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 75px;
     left: 21px;
@@ -67,11 +67,11 @@ article {
     max-width: 570px;
 }
 
-article p {
+.hero article p {
     color: lightgrey;
 }
 
-article img {
+.hero article img {
     float: right;
     max-width: 150px;
 }
@@ -410,4 +410,77 @@ th, tr, col {
 
 .trip-images img {
     width: 130px;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 245px;
+    left: 320px;
+    font-size: 3rem;
+    color: navy;
+}
+
+.home-hero img {
+    opacity: 0.8;
+}
+
+.perfect-trip {
+    width: 700px;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+.perfect-trip h2 {
+    color: navy;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.perfect-trip button {
+    margin: 0 0 1rem 18rem;
+}
+
+.perfect-trip p {
+    padding: 5px;
+    text-align: center;
+    color: #26547C;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+
+.home-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.home-info article {
+    background-color: whitesmoke;
+    border: 2px solid #26547C;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 0.5rem 0 0 1.2rem;
+    width: 290px;
+}
+
+.home-info article img {
+    max-width: 100%;
+}
+
+.sign-up {
+    background-color: #26547C;
+    color: white;
+}
+
+.sign-up legend {
+    color: white;
+}
+
+.sign-up button {
+    background-color: white;
+    color: #26547C;
+    font-weight: 600;
+}
+
+.sign-up button:hover {
+    background-color: #A4DEF9;
 }
